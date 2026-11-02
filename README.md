@@ -44,10 +44,10 @@ Semua teks dan tautan ada di `src/content/site.ts`:
 - `nav`, `hero` — label navigasi dan isi hero.
 - `journey`, `education`, `achievements` — timeline dan blok pendidikan.
 - `skills` — kategori dan daftar tool.
-- `projects`, `workFilters` — 8 proyek, kategori filter, screenshot, dan link.
+- `projects`, `workFilters` — 9 proyek, kategori filter, screenshot, dan link.
 
-Proyek dengan `href` membuka situs live di tab baru (Warteg, UZORA, Loopera,
-DISCO, USO). Proyek tanpa `href` tampil sebagai kartu tanpa tautan — tidak ada
+Proyek dengan `href` membuka situs live di tab baru (Warteg, Helmet, Diabetes,
+UZORA, Loopera, DATVIS, DISCO, USO, Power BI). Proyek tanpa `href` tampil sebagai kartu tanpa tautan — tidak ada
 detail page atau link palsu.
 
 ### GitHub
@@ -60,7 +60,7 @@ tugas IS388). Kalau URL-nya berubah, cukup ganti `href` di `socials`.
 | File | Isi |
 | --- | --- |
 | `public/img/aaron.webp` | Foto portrait (cut-out, dipakai di hero) |
-| `public/img/aaron-avatar.jpg` | Crop kecil untuk avatar di contact |
+| `public/img/aaron-avatar.jpg` | Crop kepala + bahu dari foto hero, untuk avatar di contact |
 | `public/img/projects/warteg.jpg` | Screenshot situs Warteg Orens Bahari |
 | `public/img/projects/helmet.jpg` | Figure dataset + bounding box dari laporan proyek |
 | `public/img/projects/diabetes.jpg` | Grafik EDA dari notebook proyek |
@@ -69,6 +69,7 @@ tugas IS388). Kalau URL-nya berubah, cukup ganti `href` di `socials`.
 | `public/img/projects/datvis.jpg` | Screenshot dashboard Tableau dari laporan akhir |
 | `public/img/projects/disco.jpg` | Screenshot situs DISCO XIII |
 | `public/img/projects/uso.jpg` | Screenshot situs UMN Symphony Orchestra |
+| `public/img/projects/powerbi.jpg` | Screenshot laporan Power BI (public view) |
 
 `UZORA` dan `Loopera` sekarang menaut ke prototipe Figma masing-masing.
 `UZORA` memakai dua layar asli dari prototipe. `Loopera` masih memakai grafik

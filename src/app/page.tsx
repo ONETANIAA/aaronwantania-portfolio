@@ -33,20 +33,22 @@ export default function Home() {
           <span>
             © <Year /> Aaron Wantania
           </span>
-          {activeSocials.map((social) => {
-            const external = social.href.startsWith("http");
-            return (
-              <a
-                key={social.id}
-                href={social.href}
-                {...(external
-                  ? { target: "_blank", rel: "noreferrer noopener" }
-                  : {})}
-              >
-                {social.label}
-              </a>
-            );
-          })}
+          <div className="colophon-socials">
+            {activeSocials.map((social) => {
+              const external = social.href.startsWith("http");
+              return (
+                <a
+                  key={social.id}
+                  href={social.href}
+                  {...(external
+                    ? { target: "_blank", rel: "noreferrer noopener" }
+                    : {})}
+                >
+                  {social.label}
+                </a>
+              );
+            })}
+          </div>
         </div>
       </footer>
     </main>

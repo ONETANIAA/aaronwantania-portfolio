@@ -1,8 +1,8 @@
 ﻿import Image from "next/image";
 
 /**
- * The real portrait: a cut-out bust for the hero and a square crop for the
- * small author chip. Swap the files in `public/img` to update both.
+ * The real portrait: a cut-out bust for the hero and the same photo framed
+ * naturally (head and shoulders) for the small author chip.
  */
 export function Portrait({
   variant = "bust",
@@ -14,8 +14,8 @@ export function Portrait({
       <Image
         src="/img/aaron-avatar.jpg"
         alt=""
-        width={64}
-        height={64}
+        width={400}
+        height={400}
         className="portrait-avatar"
       />
     );

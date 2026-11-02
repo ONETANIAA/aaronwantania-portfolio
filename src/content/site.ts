@@ -31,7 +31,7 @@ export const socials: { id: SocialId; label: string; href: string }[] = [
 export const activeSocials = socials.filter((social) => social.href);
 
 export const nav = [
-  { label: "Projects", href: "#work", count: "08" },
+  { label: "Projects", href: "#work", count: "09" },
   { label: "Skills", href: "#skills" },
   { label: "Journey", href: "#journey" },
   { label: "Contact", href: "#contact" },
@@ -305,6 +305,20 @@ export const projects: Project[] = [
       alt: "UMN Symphony Orchestra website hero with the Viva La Musica title",
       fit: "cover",
       position: "center 45%",
+    },
+  },
+  {
+    slug: "publication-data-warehouse",
+    title: "University Publication Data Warehouse – Power BI",
+    summary:
+      "An interactive Power BI dashboard built using integrated university publication and lecturer datasets to explore publication trends, journal quartile distribution, faculty productivity, and academic collaboration.",
+    category: "data-bi",
+    tags: ["Power BI", "Data Warehouse", "Data Visualization"],
+    href: "https://app.powerbi.com/view?r=eyJrIjoiMGNiMWU5OGQtMGRkMy00NzJhLWIyMDUtOWJiZWIwODQwM2VlIiwidCI6ImJmMzdmMzE1LWJhYzItNDRhOC1hZTZjLTJmMjEzNTFkMjY0YyIsImMiOjEwfQ%3D%3D",
+    image: {
+      src: "/img/projects/powerbi.jpg",
+      alt: "Power BI dashboard with a year slicer, Q1 publication share by faculty, and total publications by year",
+      fit: "contain",
     },
   },
 ];
