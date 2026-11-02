@@ -60,7 +60,7 @@ tugas IS388). Kalau URL-nya berubah, cukup ganti `href` di `socials`.
 | File | Isi |
 | --- | --- |
 | `public/img/aaron.webp` | Foto portrait (cut-out, dipakai di hero) |
-| `public/img/aaron-avatar.jpg` | Crop kepala + bahu dari foto hero, untuk avatar di contact |
+| `public/img/aaron-avatar.jpg` | Square crop foto portrait untuk avatar di contact |
 | `public/img/projects/warteg.jpg` | Screenshot situs Warteg Orens Bahari |
 | `public/img/projects/helmet.jpg` | Figure dataset + bounding box dari laporan proyek |
 | `public/img/projects/diabetes.jpg` | Grafik EDA dari notebook proyek |

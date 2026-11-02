@@ -1101,19 +1101,22 @@ p {
 }
 
 .author-chip .avatar {
+  position: relative;
   width: 28px;
   height: 28px;
   border-radius: 50%;
   overflow: hidden;
-  background: #26262a;
+  background: #fff;
   flex: none;
 }
 
+/* Contact chip: square crop (400×400) from the portrait, shown as-is so the
+   head, shoulders and upper body stay in frame. */
 .author-chip .avatar img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 50% 20%;
+  object-position: 50% 50%;
 }
 
 .colophon {
